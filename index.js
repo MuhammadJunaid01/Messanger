@@ -32,7 +32,7 @@ mongoose
 // start socket
 const io = new Server(server, {
   cors: {
-    origins: "http://localhost:3000",
+    origins: "https://luminous-muffin-70251d.netlify.app",
     methods: ["GET", "POST"],
 
     credentials: true,
